@@ -21,16 +21,14 @@ def switchMenu(menu):
 
     if menu == "2":
         for ordered in orderer.tabOrdered:
-            print("Commande N°" + numero + ", table N°" + table)
+            print("Commande N°" + ordered.numero + ", table N°" + ordered.table)
         numero = input("numero ? ")
         action = input("action ? ")
         orderer.modifyOrdered(numero, action)
         accueil()
 
     if menu == "3":
-        name = input("name ?")
         numero = input("numero ?")
-        table = input("table ?")
         orderer.deleteOrdered(numero)
         accueil()
 
@@ -38,7 +36,7 @@ def switchMenu(menu):
         for order in orderer.tabOrdered:
             print("Commande N°"+ order.numero + ", table N°" + order.table)
         print("\n")
-        select = input("Selectionner une commande avec le numero pour voir\nla listes des menus de celle-ci.\nAppuyer sur 0 puis entrée pour retourner a l'accueil ")
+        select = input("Selectionner une commande avec le numero pour voir\nla listes des menus de celle-ci.\nAppuyer sur entrée pour retourner a l'accueil ")
         if select == "0":
             accueil()
 
