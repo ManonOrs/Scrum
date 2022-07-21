@@ -1,10 +1,7 @@
 import json
 
 
-def add(a, b):
-    return a + b
-
-
+## Return True if id existe in waiters.json
 def connexion(id):
     with open('src/waiters.json') as f:
         data = json.load(f)
