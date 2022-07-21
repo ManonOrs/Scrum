@@ -1,4 +1,4 @@
-import src
+from src import __init__
 
-def test_addOrderer():
-    assert src.addOrdered(30) == 0
+def test_test():
+    assert __init__.test(30, 2) == 60
