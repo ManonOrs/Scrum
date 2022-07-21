@@ -15,3 +15,5 @@ print('Entrer votre ID :')
 x = int(input())
 if connexion(x):
     print('Bienvenue !')
+else:
+    print('ID inconnu.')
