@@ -67,7 +67,7 @@ def switchMenu(menu):
         addOrdered(numero, table, name)
 
     if menu == "2":
-        for ordered in tabOrdered
+        for ordered in tabOrdered:
             print("Commande N°" + numero + ", table N°" + table)
         numero = input("numero ? ")
         table = input("action ? ")

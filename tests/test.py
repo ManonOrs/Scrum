@@ -1,4 +1,5 @@
-from src import __init__
+import src
+
 
 def test_test():
-    assert __init__.test(30, 2) == 60
+    assert src.test(30, 2) == 60
