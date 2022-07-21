@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\manon\OneDrive\Documents\GitHub\scrum\venv
+set VIRTUAL_ENV=C:\Users\ipi-pcpo-006\Documents\GitHub\scrum\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
