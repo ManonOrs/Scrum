@@ -25,3 +25,12 @@ class Table:
 
     def remove_order(self, order):
         self.orders.remove(order)
+
+    def show_table_infos(self):
+        print('Numéro de table:' + str(self.table_number))
+        print('Nombre de sièges:' + str(self.seats))
+        print('Status:' + str(self.status))
+        print('Nombre de clients:' + str(self.clients))
+        print('Nombre de commande:' + str(len(self.orders)))
+        for order in self.orders:
+            print(str(order))
