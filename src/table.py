@@ -1,6 +1,6 @@
 class Table:
-    table_number = int
-    seats = int
+    table_number = 0
+    seats = 0
     status = 'libre'
     clients = 0
     orders = []
