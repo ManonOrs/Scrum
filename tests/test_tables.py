@@ -12,14 +12,11 @@ def test_init_table():
     assert table.orders == []
 
 
-def test_1():
-    assert 1 == 12
-
-
-def test_add_orders():
+def test_add_orders(order):
     table = Table(table_number=14, seats=4, status='occupé', clients=3)
-    table.add_order('commande 1')
-    assert table.orders == ['commande 1']
+    orders = table.orders
+    table.add_order(order)
+    assert table.orders == orders.append(order)
 
 
 def test_add_client():
