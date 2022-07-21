@@ -1,6 +1,9 @@
 python -m venv venv
 
-python -m pip install --upgrade pip   
+(console administrateur)
+python -m pip install --upgrade pip setuptools
+
+python -m pip install flit
 
 venv\Scripts\pip install -e ".[test]" 
 
