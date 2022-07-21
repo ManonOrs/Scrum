@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "NainPaire",
+        "numero" : 1,
+        "dishes" : [],
+        "table" : 4
+    },
+    {
+        "name" : "NainVire",
+        "numero" : 2,
+        "dishes" : [],
+        "table" : 2
+    }
+]
