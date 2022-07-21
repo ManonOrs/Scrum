@@ -10,6 +10,5 @@ def connexion(id):
         data = json.load(f)
     for x in data:
         if id == x["id"]:
-            # print("accepter")
             return True
     return False
