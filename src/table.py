@@ -1,16 +1,15 @@
 class Table:
-    table_number = 0
-    seats = 0
+    table_number = int
+    seats = int
     status = 'libre'
     clients = 0
     orders = []
 
-    def __init__(self, table_number, seats, status, clients, orders):
+    def __init__(self, table_number, seats, status, clients):
         self.table_number = table_number
         self.seats = seats
         self.status = status
         self.clients = clients
-        self.orders = orders
 
     def set_status(self, status):
         self.status = status

@@ -1,5 +1,5 @@
 [project]
-name = 'base'
+name = 'scrum'
 version = '0.0.1'
 
 [project.optional-dependencies]
@@ -10,7 +10,7 @@ addopts = '--isort --flake8'
 
 [tool.coverage.run]
 branch = true
-include = ['tests/*', 'base/*']
+include = ['tests/*', 'src/*']
 
 [tool.coverage.report]
 exclude_lines = ['pragma: no cover', 'def __repr__', 'raise NotImplementedError']
