@@ -1,7 +1,7 @@
-from src import __init__
+import src
 
-# def test_add():
-#     assert __init__.add(1, 2) == 4
 
-# def test_connexion():
-#     assert src.connexion(1000) == True;
+def test_connexion():
+    assert src.connexion(1) is True
+    assert src.connexion(2) is True
+    assert src.connexion(3) is False
