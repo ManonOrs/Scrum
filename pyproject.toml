@@ -1,5 +1,10 @@
+[build-system]
+requires = ['flit_core >=3.2,<4']
+build-backend = 'flit_core.buildapi'
+
 [project]
-name = 'base'
+name = 'src'
+description = 'scrum'
 version = '0.0.1'
 
 [project.optional-dependencies]
@@ -10,7 +15,7 @@ addopts = '--isort --flake8'
 
 [tool.coverage.run]
 branch = true
-include = ['tests/*', 'base/*']
+include = ['tests/*', 'src/*']
 
 [tool.coverage.report]
 exclude_lines = ['pragma: no cover', 'def __repr__', 'raise NotImplementedError']
