@@ -1,0 +1,30 @@
+[
+    {
+        "table_number" : 1,
+        "seats" : 4,
+        "status" : "libre",
+        "clients" : 0,
+        "orders" : []
+    },
+    {
+        "table_number" : 2,
+        "seats" : 2,
+        "status" : "libre",
+        "clients" : 0,
+        "orders" : []
+    },
+    {
+        "table_number" : 3,
+        "seats" : 4,
+        "status" : "libre",
+        "clients" : 0,
+        "orders" : []
+    },
+    {
+        "table_number" : 4,
+        "seats" : 2,
+        "status" : "libre",
+        "clients" : 0,
+        "orders" : []
+    }
+]
