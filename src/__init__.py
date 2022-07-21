@@ -1,3 +1,3 @@
-import src.menu
+import interface
 
-src.menu.menu()
+interface.accueil()
