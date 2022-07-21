@@ -1,8 +1,9 @@
 from src.table import Table
+from src.orderer import Ordered
 
 table1 = Table(14, 4, 'occupée', 3)
 
-table1.add_order('commande1')
-table1.add_order('commande2')
-table1.add_order('commande3')
+orderer1 = Ordered(15, 14, 'Billy')
+
+table1.add_order(orderer1)
 table1.show_table_infos()
