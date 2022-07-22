@@ -22,9 +22,9 @@
     },
     {
         "table_number" : 4,
-        "seats" : 2,
-        "status" : "libre",
-        "clients" : 0,
+        "seats" : 4,
+        "status" : "occupée",
+        "clients" : 3,
         "orders" : []
     }
 ]

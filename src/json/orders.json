@@ -2,13 +2,19 @@
     {
         "name" : "NainPaire",
         "numero" : 1,
-        "dishes" : [],
+        "plats" : ["salade","omelette", "steak"],
+        "table" : 4
+    },
+    {
+        "name" : "NainPaire",
+        "numero" : 2,
+        "plats" : ["glace","café", "café"],
         "table" : 4
     },
     {
         "name" : "NainVire",
-        "numero" : 2,
-        "dishes" : [],
+        "numero" : 3,
+        "plats" : ["ice tea"],
         "table" : 2
     }
 ]
