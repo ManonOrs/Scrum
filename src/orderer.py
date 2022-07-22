@@ -1,6 +1,7 @@
 tabOrdered = []
 
 
+
 class Ordered:
 
     def __init__(self, numero, table, name):
@@ -9,11 +10,13 @@ class Ordered:
         self.plats = []
         self.table = table
 
+
     def addPlat(self, plats):
         self.plats.append(plats)
         print("\n" + plats + " ajouté \n")
 
     def deletePlat(self, plat, indiceOrdered):
+
         indicePlat = -1
         for plt in tabOrdered[indiceOrdered].plats:
             indicePlat = indicePlat + 1
@@ -43,9 +46,12 @@ class Ordered:
                     plat = input("Quel est le plat à supprimer ? ")
                     tabOrdered[indiceOrdered].deletePlat(plat, indiceOrdered)
 
+
             if action == "add":
                 for plt in tabOrdered[indiceOrdered].plats:
                     print(plt)
                 print("\n")
                 plat = input("Quel est le plat ajouter ? ")
+
                 tabOrdered[indiceOrdered].addPlat(plat)
+
