@@ -12,11 +12,11 @@ class Ordered:
         print("\n" + plats + " ajouté \n")
 
     def deletePlat(self, plat, indiceOrdered):
-        indicePlat = -1
+        indicePlat = 0
         for plt in tabOrdered[indiceOrdered].plats:
-            indicePlat = indicePlat + 1
             if plt == plat:
                 del tabOrdered[indiceOrdered].plats[indicePlat]
+            indicePlat = indicePlat + 1
         print(plat + " supprimé")
 
 def addOrdered(numero, table, name):
@@ -24,11 +24,11 @@ def addOrdered(numero, table, name):
     tabOrdered.append(addingOrdered)
 
 def deleteOrdered(numero):
-    indiceOrdered = -1
+    indiceOrdered = 0
     for ordered in tabOrdered:
-        indiceOrdered = indiceOrdered + 1
         if ordered.numero == numero:
             del tabOrdered[indiceOrdered]
+        indiceOrdered = indiceOrdered + 1
 
 def modifyOrdered(numero, action):
     indiceOrdered = -1

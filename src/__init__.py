@@ -1,3 +1,1 @@
-import interface
 
-interface.accueil()
