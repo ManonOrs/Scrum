@@ -1,7 +1,6 @@
 entree = ["salade", "tomate", "fois gras"]
-plat = ["boeuf bourgignon", "grattin de choux", "ragou de lapin"]
+plat = ["boeuf bourgignon", "poulet", "ragou de lapin"]
 dessert = ["glace", "tarte", "gateau"]
-
 
 selection = []
 class menu:
@@ -63,10 +62,11 @@ while choix == "yes":
     choix = input("souhaitez vous commander ? \n")
     if choix == "yes":
         commande()
+        print("\n")
     else:
         print("vous avez choisi de ne pas commander")
+        print("\n")
 
-print("Voici la liste des menus : \n")
+print("Voici la liste des menus :")
 for Menu in selection:
-    print(str(Menu.numero))
-
+    print(Menu.numero)
