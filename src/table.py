@@ -32,5 +32,12 @@ class Table:
         print('Status:' + str(self.status))
         print('Nombre de clients:' + str(self.clients))
         print('Nombre de commande:' + str(len(self.orders)))
-        for order in self.orders:
-            print(str(order))
+        if not self.orders:
+            print('Auccune commande a cette table')
+        else:
+            for order in self.orders:
+                print('Commande N°' + str(order.numero) + ' au nom de: ' + str(order.name))
+                print('Les plats:')
+                if order.plats:
+                    for plat in order.plats:
+                        print('- ' + plat)
