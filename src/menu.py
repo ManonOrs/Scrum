@@ -66,6 +66,7 @@ while choix == "yes":
     else:
         print("vous avez choisi de ne pas commander")
 
+print("Voici la liste des menus : \n")
 for Menu in selection:
-    print("Voici les menus : " + str(Menu.numero))
+    print(str(Menu.numero))
 
