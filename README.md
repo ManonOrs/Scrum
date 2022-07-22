@@ -9,4 +9,4 @@ venv\Scripts\python -m pip install -e ".[test]"
 
 venv\Scripts\pytest
 
-venv\Scripts/pytest --cov
+venv\Scripts\pytest --cov
